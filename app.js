@@ -85,3 +85,22 @@ const handleClick1 = () => {
 // // EVENT LISTENER
 // input1.addEventListener("keyup", handleOnKeyUp)
 
+// 💻 JS DOM – OnSubmit
+
+// // SELECTOR
+// const theForm = document.querySelector('#theForm');
+// const theInput = document.querySelector('#theInput');
+
+// // HANDLER FUNCTION
+// const handleSubmit = (event) => {
+//   event.preventDefault()
+
+//   if (theInput.value == ""){
+//     alert("Input is empty")
+//   }else{
+//     console.log(theInput.value)
+//   }
+// }
+
+// // EVENT LISTENER
+// theForm.addEventListener("submit", handleSubmit);

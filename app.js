@@ -43,3 +43,19 @@ const appendNewPTag = () => {
 document.querySelector("#main").addEventListener('click', appendNewPTag)
 
 // console.log(document.getElementById("pTag"))
+
+// EXERCISES
+
+// JS DOM – OnClick
+
+// redirectButton
+const redirectButton = document.querySelector('#redirectButton');
+
+// handleclick
+const handleClick1 = () => {
+  document.location = 'https://getbootstrap.com'
+}
+// event listener
+redirectButton.addEventListener("click", handleClick1);
+
+

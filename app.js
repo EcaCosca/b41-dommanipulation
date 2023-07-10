@@ -104,3 +104,37 @@ const handleClick1 = () => {
 
 // // EVENT LISTENER
 // theForm.addEventListener("submit", handleSubmit);
+
+// CSS with JS
+
+// // SELECTORS
+// const logo = document.querySelector('#logo');
+// const screen = document.querySelector('.screen');
+
+// // HANDLER FUNCTION
+// const handleLogoClick = () => {
+//   // alert('system on')
+//   // CHANGE THE BACKGROUND TO #444
+//   // console.log(screen)
+//   if(screen.style.backgroundColor != "#444" && 
+//   screen.children[0].innerText != "Hello World!"){
+//     screen.style.backgroundColor = "#444"
+//     screen.children[0].innerText = "Hello World!"
+//   }else{
+//     screen.style.backgroundColor = ""
+//     screen.children[0].innerText = ""
+//   }
+// }
+
+// // EVENT LISTENERS
+// logo.addEventListener('click', handleLogoClick)
+
+const num = 44
+const str = "44"
+// number is the same value as string ....TRUE
+console.log(num == str)
+console.log(num === str)
+
+// number is NOT the same value as string ....FALSE
+console.log(num != str)
+console.log(num !== str)

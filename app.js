@@ -56,6 +56,32 @@ const handleClick1 = () => {
   document.location = 'https://getbootstrap.com'
 }
 // event listener
-redirectButton.addEventListener("click", handleClick1);
+// redirectButton.addEventListener("click", handleClick1);
 
+// 💻 JS DOM – Conditional OnClick
+
+// redirectButton
+// const redirectButton1 = document.querySelector('.redirect');
+
+// handleclick
+// const handleClick2 = () => {
+//   document.location = 'https://getbootstrap.com'
+// }
+// event listener
+// redirectButton1.addEventListener("click", handleClick2);
+
+
+// JS DOM – OnKeyUp
+// Your code here
+// SELECTOR
+// const input1 = document.getElementById('specialinput')
+// // console.log(input1)
+
+// // FUNCTION
+// const handleOnKeyUp = () => {
+//   console.log(input1.value)
+// }
+
+// // EVENT LISTENER
+// input1.addEventListener("keyup", handleOnKeyUp)
 
